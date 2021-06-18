@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+a:link { color:#ffffff; text-decoration: none;}  
+a:visited { color:#ffffff; text-decoration: none;} 
+a:hover { color:#000000; text-decoration: none;}
+a:active { color:#ffffff; text-decoration: none;}
+
+
+ul, li {
+    list-style: none;
+}
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#maincontents{
+    width: 1080px;
+}
+
+#header{
+    width: 1080px;
+    height: 150px;
+    border: 1px #ffffff;
+}
+
+#topblank{
+    float: left;
+    width: 1080px;
+    height: 70px;
+}
+
+#topline{
+    float: left;
+    width: 100%;
+    color: white;
+}
+
+#interface{
+    width: 1080px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+#logo{
+    float: left;
+    margin: 10px;
+}
+
+#menucontainer{
+    float: right;
+    width: 1000px;
+    height: 100px;
+    
+}
+
+#menu{
+    font-family: 'Noto Serif KR', serif; 
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 550px;
+    align-items: center;
+}
+
+#menu2on{
+    color: #000000;
+    font-weight: bold;
+}
+
+#main{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.article{
+    float: left;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#sys{
+    display: flex;
+}
+
+#blank{
+    height: 30px;
+}
+
+#program0{
+    height: 550px;
+}
+
+#program1{
+    margin-left: px;
+    height: 500px;
+}
+#showroom{
+    width: 400px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 300;
+    justify-content: left;
+    color: white;
+    margin-left: 20px;
+    margin-top: 250px;
+}
+
+#showroom2{
+    width: 400px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 300;
+    justify-content: left;
+    top: 50px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 270px;
+}
+
+#programex{
+    width: 600px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 300;
+    color: white;
+    margin-left: 20px;
+    margin-top: 700px;
+}
+
+.aside{
+    width: 400px;
+}
+
+#mapex{
+    width: 400px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 300;
+    justify-content: left;
+    color: white;
+    margin-left: 20px;
+    margin-top: 380px;
+}
+#footer{
+    height: 100px;
+    position: relative;
+    justify-content: center;
+    transform: translateY(10%);
+    line-height: 100px;
+    text-align: center;
+}
+
+#copy{
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 300;
+    position: relative;
+    top: 50px;
+    color: white;
+}
+
+
+
+
+
+
+#slider{
+    display: flex;
+    justify-content: center;
+}
+
+#imageContainer{
+    width: 600px;
+    height: 800px;
+    display: flex;
+    overflow: hidden;
+}
+
+#imageSlider{
+    width: 2250px;
+    display: flex;
+    transition: transform 0.5s;
+}
+
+#Arrow{
+    width: 600px;
+    height: 800px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#leftArrow{
+    position: absolute;
+    left: 20px;
+    top: 400px;
+}
+
+#rightArrow{
+    position: absolute;
+    right: 20px;
+    top: 400px;
+    transform: scaleX(-1);
+}
+
+#bottomBtn{
+    display: flex;
+    margin-bottom: 20px;
+    width: 130px;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottomBtn button{
+    padding: 5px 5px;
+    border: 0px;
+    background-color: rgba(218, 218, 218, 0.63);
+    border-radius: 7px;
+}
+
+#bottomBtn button:hover{
+    background-color: rgba(255, 2555, 255, 0.6);
+}
